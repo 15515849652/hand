@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow:hidden hidden; */
+}
+#header-heads{
+    width: 100%;
+    height: 40px;
+    background-color:black;
+}
+#header-heads .row{
+    width: 90%;
+    margin: 0 auto;
+}
+#heads-share{
+    height: 40px;
+}
+#heads-online{
+    height: 40px;
+}
+#heads-share .container{
+    width: 100%;
+    height: 40px;
+}
+.share-a-1{
+    width: 20px;
+    height:40px;
+}
+.share-a-1 i{
+    font-size: 13px;
+    color: white;
+    line-height: 40px;
+}
+.share-a-1 i:hover{
+    color: #fe6367;
+    opacity: 0.7;
+}
+#online-login,#online-shop{
+    display: inline-block;
+    height: 40px;
+}
+.online-support{
+    float: right;
+}
+#online-login{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#online-login a,#online-shop a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.login-shows{
+    border: 0;
+    background-color: white;
+}
+
+
+/* ----------------------------------- */
+.login-box-hide{
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: gray;
+    position: absolute;
+}
+.display-hide{
+    display: block;
+}
+.login-box-login{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+}
+.login-box-headers{
+    width: 340px;
+    height: 150px;
+    margin: 0 auto;
+}
+.login-box-close{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transform: translate(150px,-70px);
+
+}
+.login-box-close button{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid red;
+    color: white;
+}
+
+button:focus {
+    outline: 0!important;
+}
+.close span{
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.login-box-headers h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 60px;
+}
+.login-box-center{
+    width: 340px;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 1px solid #d5d5d5;
+
+}
+#username,#password{
+    width: 100%;
+    height: 37px;
+    border: 1px solid #d5d5d5;
+}
+.login-center-box label{
+    display: inline;
+    font-weight: 500;
+    font-size: 10px;
+}
+.login-uname,.login-psw{
+    margin-top: 14px;
+}
+.login-uname span,.login-psw span{
+    font-weight: 900;
+    font-size: 12px;
+}
+.login-check-box{
+    width: 70px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.login-check-box input{
+    margin-top: 2px;
+}
+.login-check-box span{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: -2px;
+}
+.login-helplink{
+    float: right;
+}
+.login-helplink a,.login-box-help a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-helplink a:hover,.login-box-help a:hover{
+    color: #FE6367;
+    text-decoration: none;
+}
+.login-box-footer{
+    width: 400px;
+    height: 100px;
+    background-color: #F6F6F6;
+}
+.login-box-footer-color{
+    width: 340px;
+    height: 100px;
+    margin: 0 auto;
+}
+.login-box-help{
+    margin-top: 39px;
+    float: left;
+}
+.login-box-submit{
+    margin-top: 30px;
+    float: right;
+}
+.login-box-submit button{
+    width: 84px;
+    height: 36px;
+    border: 1px solid black;
+    background-color: white;
+}
+/* ----------------------------------- */
+
+
+ @media (min-width :900px) and (max-width :1200px) {
+    #share-a6,#share-a1,#share-a2,#share-a3,#share-a4,#share-a5{
+        margin-left: -10px;
+        margin-right: 5px;
+    }
+ }
+ @media (max-width :899px) {
+     #header-heads{
+        display: none;
+     }
+ }
+
+ /* @media (max-width :880px) {
+    #header-heads .row{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #share-a6,#share-a1,#share-a2,#share-a3,#share-a4,#share-a5{
+        margin-left: -10px;
+        margin-right: 2px;
+    }
+ } */

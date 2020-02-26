@@ -1,0 +1,44 @@
+.back{
+				background-image:url(../img/top.jpg);
+				background-size: cover; 
+				-moz-background-size:100% 100% ;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 650px;
+			}
+			ul li{
+				display: inline-block;
+			}
+			#title a {
+				text-decoration: none;
+				color:white;
+			}
+			#title{
+				text-align: center;
+				color: white;
+			}
+			#body a{
+				text-decoration: none;
+				color:grey;
+			}
+			#body a:hover{
+				color: coral;
+			}
+			#xiaobiaoji img{
+				width: 16px;
+				height: 16px;
+			}
+			#xiaobiaoji {
+				text-align: center;
+				margin: 10px;
+			}
+			#xiaobiaoji span{
+				margin: 10px;
+			}
+			#content-img img{
+				width: 100%;
+				height:900px;
+			}
+			#content-img:hover{
+				cursor:pointer;
+			}

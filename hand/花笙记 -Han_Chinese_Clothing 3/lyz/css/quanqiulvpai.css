@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+/*---------------------------------------------------------*/
+body{
+    overflow-y:scroll;
+}
+.row{
+    
+}
+#content{
+	width:100%;
+	height:650px;
+	overflow: hidden;
+	position: relative;
+}
+/*轮播图*/
+#background-img1{
+	background: url(../img/bg1.jpg) no-repeat;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#background-img2{
+	background: url(../img/bg2.jpg) no-repeat;
+	background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+#content-ul{
+    position: absolute;
+    left:47%;
+    top:93%;
+    width:200px;
+    height:20px;
+    list-style-type: none;
+    padding-left:0;
+    margin:0 auto;
+    z-index: 10;
+}
+#content-ul li{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border:0.5px solid white;
+    float:left;
+    margin:3px 5px;
+    z-index: 10;
+    cursor:pointer;
+}
+/*结束*/
+#content-center{
+    width:100%;
+    height:100px;
+    z-index: 10;
+    position: absolute;
+    top:40px;
+}
+#center-div{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+}
+/*文字动画*/
+.animate{
+    position: absolute;
+    top:35%;
+    width:100%;
+    height:190px;
+}
+.animate-span{
+    display: block;
+    width:315px;
+    font-size: 18px;
+}
+.animate-location1 p,.animate-location2 p{
+    display: block;
+    width:370px; 
+    margin-bottom:20px;
+    margin-top:5px;
+    font-size: 36px;
+}
+.animate-box-p3{
+    display: block;
+    width:315px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.animate-box-button{
+    display: block;
+    width:315px;
+    width:76px;
+    height:35px;
+    border:2px solid white;
+    box-sizing: border-box;
+}
+.animate-box-button a{
+    display: block;
+    width:76px;
+    height:35px;
+    line-height:30px; 
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+#animate-box1{
+    width:70%;
+    height:174px;
+    margin:0 auto;
+    -webkit-animation-delay:1s;
+}
+#animate-box2{
+    width:70%;
+    height:174px;
+    margin:0 auto;
+    -webkit-animation-delay:1s;
+}
+.animate-location1{
+    width:315px;
+    margin-left:60%;
+    color:white;
+}
+.animate-location2{
+    width:315px;
+    color:white;
+}
+
+
+.img_1{
+	width: 100%;
+			}
+img,a :hover{
+	cursor: pointer;
+	}
+ .zi a{
+	text-decoration: none;
+	color: black;
+}
+.zi{
+	text-align: center;
+	height: 80px;
+	/* margin-top: 20px; */
+	background-color:gainsboro ;
+	padding-top: 15px;
+}
+#tuwen{
+	margin-top: 20px;
+	}
+#names{
+	font-size: 12px;
+	margin-top: 10px;
+	}
+#foot{
+	text-align: center;
+	}

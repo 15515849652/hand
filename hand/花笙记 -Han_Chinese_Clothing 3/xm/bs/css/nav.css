@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    overflow: hidden;
+    background:blue;
+}*/
+body{
+	overflow: auto;
+}
+
+ul {
+    list-style: none;
+}
+/*---------------------------------------------------------*/
+#content{
+    width:100%;
+    height:550px;
+    overflow: hidden;
+    position: relative;
+}
+#content-center{
+    width:100%;
+    height:100px;
+    z-index: 10;
+    position: absolute;
+    top:40px;
+}
+#center-div{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+}
+#content-center-logo{
+    width:130px;
+    height:88px;
+    z-index: 10;
+    float:left;
+    background:url(../../tupian/logo1.png) no-repeat;
+    cursor:pointer;
+    background-size:145px 83px;
+}
+/*导航*/
+#nav{
+    width:680px;
+    height:100px;
+    z-index: 10;
+    list-style-type: none;
+    float:right;
+}
+.nav-li{
+    width:90px;
+    height:100px;
+    float:left;
+    font-weight:700;
+    color:white;
+    font-size: 12px;
+    cursor:pointer;
+    margin-left:20px;
+    margin-right:20px;
+}
+#nav-li1{
+    margin-left:0px;
+    }
+.nav-li-border{
+    margin:0 auto;
+    width:120px;
+    text-align: center;
+    margin-top:40px;
+}
+#nav-li-border1,#nav-li-border2,#nav-li-border3,#nav-li-border4,#nav-li-border5{
+    height:23px;
+    width:95px;
+}
+#nav-li-border1 a{
+    text-decoration: none;
+    color:white;
+}
+#nav-i{
+    width:14px;
+    height:14px;
+    float:left;
+    line-height: 96px;
+    color:white;
+    cursor:pointer;
+    margin-left:20px;
+}
+/*父类相对*/
+#nav-li1{
+    position: relative;
+}
+#nav-li2{
+    position: relative;
+}
+#nav-li3{
+    position: relative;
+}
+#nav-li4{
+    position: relative;
+}
+#nav-li5{
+    position: relative;
+}
+/*导航---首页*/
+#nav1{
+    display: none;
+    width:200px;
+    height:120px;
+    padding:10px 7px;
+    position: absolute;
+    top:100px;
+    left:-10px;
+    background:white;
+}
+#nav1-ul{
+    list-style-type: none;
+    width:200px;
+    height:100px;
+}
+.nav1-ul-li{
+    width:186px;
+    height:31px;
+    font-size: 12px;
+    text-align: left;
+    font-weight:100;
+}
+.nav1-ul-li a{
+    text-decoration: none;
+    color:rgb(60,60,60);
+}
+#nav1-ul-li1{
+    margin-top:5px;
+    padding:6px 14px;
+}
+#nav1-ul-li2{
+    padding:6px 14px;
+}
+#nav1-ul-li3{
+    padding:6px 14px;
+}
+/*导航--作品*/
+#nav2{
+    width:460px;
+    height:240px;
+    position: absolute;
+    top:100px;
+    left:-10px;
+    background:white;
+    display: none;
+}
+#nav2 li{
+    width:200px;
+    height:205px;
+    padding:15px 15px 30px;
+    float:left;
+    list-style-type: none;
+}
+#nav2 li h3{
+    display: block;
+    width:200px;
+    height:37px;
+    margin:15px 0px;
+    padding:8px 8px 15px;
+    color:black;
+    font-size: 12px;
+    font-weight: 800;
+    border-bottom: 1px solid rgb(241,241,241);
+}
+#nav2 li a{
+    text-decoration: none;
+    display: block;
+    width:200px;
+    height:31px;
+    padding:6px 14px 6px 8px;
+    color:rgb(60,60,60);
+    font-weight: 100;
+}
+/*导航--服务*/
+#nav3{
+    display: none;
+    width:200px;
+    height:120px;
+    padding:10px 7px;
+    position: absolute;
+    top:100px;
+    left:-10px;
+    background:white;
+    color:black;
+}
+#nav3-ul{
+    list-style-type: none;
+    width:200px;
+    height:100px;
+}
+.nav3-ul-li{
+    width:186px;
+    height:31px;
+    font-size: 12px;
+    text-align: left;
+    font-weight:100;
+    padding:6px 14px;
+}
+.nav3-ul-li a{
+    text-decoration: none;
+    color:rgb(60,60,60);
+}
+#nav3-ul-li1{
+    margin-top:5px;
+}
+/*导航--资讯*/
+#nav4{
+    display: none;
+    width:200px;
+    height:120px;
+    padding:10px 7px;
+    position: absolute;
+    top:100px;
+    left:-10px;
+    background:white;
+}
+#nav4-ul{
+    list-style-type: none;
+    width:200px;
+    height:100px;
+}
+.nav4-ul-li{
+    width:186px;
+    height:31px;
+    font-size: 12px;
+    text-align: left;
+    font-weight:100;
+    padding:6px 14px;
+}
+.nav4-ul-li a{
+    text-decoration: none;
+    color:rgb(60,60,60);
+}
+#nav4-ul-li1{
+    margin-top:5px;
+}
+/*导航--联系*/
+#nav5{
+    display: none;
+    width:200px;
+    height:90px;
+    padding:10px 7px;
+    position: absolute;
+    top:100px;
+    left:-10px;
+    background:white;
+}
+#nav5-ul{
+    list-style-type: none;
+    width:200px;
+    height:100px;
+}
+.nav5-ul-li{
+    width:186px;
+    height:31px;
+    font-size: 12px;
+    text-align: left;
+    font-weight:100;
+    padding:6px 14px;
+}
+.nav5-ul-li a{
+    text-decoration: none;
+    color:rgb(60,60,60);
+}
+#nav5-ul-li1{
+    margin-top:5px;
+}
+/*导航--搜索*/
+#search{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0px;
+    width:100%;
+    height:100px;
+    background:white;
+}
+#search-box{
+    width:70%;
+    height:99px;
+    margin:0 auto;
+    padding:20px 15px;
+}
+#search i{
+    display: block;
+    width:28px;
+    height: 55px;
+    color:black;
+    font-size: 20px;
+    float:left;
+    margin-top:-20px;
+}
+#search-input{
+    float:left;
+    width:90%;
+    height:55px;
+    color:rgb(153,153,153);
+    font-size:30px;
+    font-weight: 800;
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}   
+#search-close{
+    padding-top:40px;
+    font-size: 25px;
+    cursor: pointer;
+}

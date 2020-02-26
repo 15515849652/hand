@@ -1,0 +1,137 @@
+
+/*直播伴侣内容篇*/        
+.whole-content{width: 1200px;/*内容区域框架宽度*/
+        margin: 0 auto;/*居中*/
+        min-height: 600px;/*最小高度*/}
+.nr-bz{width: 960px;/*内容包装*/
+      padding: 0 50px;/*内边距左右50px*/
+      margin: 0 auto;/*居中*/}     
+.nr-1{  position: relative;
+        width: 100%;
+        height: 550px;
+        background: #fff;}
+.nr-1 .nr-1-1{display: inline-block;/*设置成行内块元素，进行排版*/
+        width: 570px;
+        height: 518px;
+        margin-top: 40px;/*上外边距*/}    
+.nr-1 .nr-1-2{display: inline-block;/*设置成行内块元素，进行排版*/
+              margin-left: 20px;/*左外边距*/
+              overflow: hidden;
+              vertical-align: top;}
+.nr-1 .nr-1-2 div{margin-top: 90px;
+                 width: 365px;
+                 height: 80px;
+                 line-height: 80px;
+                 color: #303030;
+        background: url(../images/zbbl-2.png) center no-repeat;}
+.nr-1 .nr-1-2 p{font-size: 14px;
+                color: #5e5e5e;
+                text-align: center;}
+.nr-1 .nr-1-2 .a-ys{display:block;/*变成快元素可以设置宽和高*/
+                margin-top: 20px;/*上外边距*/
+                margin-left: 80px;/*左外边距*/
+                width: 222px;
+                height: 54px;
+                text-align: center;/*水平居中*/
+                line-height: 54px;/*垂直居中*/
+                font-size: 18px;
+                color:white;/*字体颜色*/
+                background-color: #fc9025;/*背景颜色*/
+                border-radius:30px;/*边框倒角*/}
+.nr-1 .nr-1-2 .a-ys-1{margin-top: 58px;/*上外边距*/
+                      line-height: 20px;/*行高*/
+                      padding-top: 8px;/*上内边距*/
+                      height: 46px;}
+.nr-1 .nr-1-2 .a-ys-3{display: block;/*变成快元素可以设置宽和高*/
+                      margin-top: 32px;/*上外边距*/
+                      margin-left: 160px;/*左外边距*/
+                      width: 75px;
+                      height: 26px;
+                      border-radius: 13px;/*边框倒角*/
+                      text-align: center;/*居中*/
+                      font-size: 14px;/*字体大小*/
+                      color: #fc9025;/*字体颜色*/
+                      background-color:#ffebd8;/*背景颜色*/}
+/*内容区域的h2标记和p标记的属性*/
+.nr-font-h2{margin-bottom: 30px;
+        font-size: 30px;
+        color: #303030;}
+.nr-font-p{margin-bottom: 10px;
+   font-size: 20px;
+   color: #5e5e5e;}
+   
+.nr-2{position:relative;/*相对定位*/
+      width: 100%;
+      height: 550px;
+      padding-left: 40px;/*左内边距*/
+      background-color: #fcfcfc;/*背景颜色*/} 
+.nr-2 .nr-2-1{box-sizing: border-box;/*元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制*/
+              width: 500px;
+              margin-top: 200px;
+              padding-left: 40px;
+              vertical-align: top;/* 	把元素的顶端与行中最高元素的顶端对齐*/}
+.nr-2 .nr-2-1,.nr-2 .nr-2-2{display: inline-block;/*行内块元素进行布局*/}
+.nr-2 .nr-2-2{position: relative;/*相对定位*/
+                margin-top: 90px;
+                width: 436px;
+                height: 360px;
+                background: url(../images/nr-2-2-5.png) no-repeat;}
+.nr-2-bj{position: absolute;
+        top: 0;
+        left: -3120px;
+        height: 100%;
+        z-index: -1;
+        background: #fcfcfc;}
+.nr-3{  position: relative;
+        padding-top: 1px;
+        width: 100%;
+        height: 560px;
+        background-color: #fff;}
+.nr-3 .nr-3-1{  position: relative;
+                box-sizing: border-box;
+                display: inline-block;
+                margin-top: 90px;
+                width: 354px;
+                height: 360px;
+                background: url(../images/nr-3-1.png) no-repeat;}
+.nr-3 .nr-3-2{  box-sizing: border-box;
+                display: inline-block;
+                margin-top: 205px;
+                margin-left: 100px;
+                padding-left: 40px;
+                vertical-align: top;
+                text-align: right;}
+.nr-4{  position: relative;
+        padding-top: 1px;
+        width: 100%;
+        height: 560px;
+        background-color: #fcfcfc;}
+.nr-4 .nr-4-1{  display: inline-block;
+                box-sizing: border-box;
+                margin-top: 205px;
+                padding-left: 40px;
+                width: 567px;
+                vertical-align: top;
+               }
+.nr-4 .nr-4-2{position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-top: 90px;
+        width: 354px;
+        height: 360px;
+        background: url(../images/nr-4-2.png) no-repeat;}
+.nr-5 .nr-5-1{position: relative;
+                box-sizing: border-box;
+                display: inline-block;
+                margin-top: 90px;
+                width: 354px;
+                height: 360px;
+                background: url(../images/nr-5-1.png) no-repeat;}
+.nr-5 .nr-5-2{ display: inline-block;
+        box-sizing: border-box;
+        margin-top: 205px;
+        padding-left: 40px;
+        width: 567px;
+        vertical-align: top;
+        text-align: right;}
+/*内容区域完毕*/

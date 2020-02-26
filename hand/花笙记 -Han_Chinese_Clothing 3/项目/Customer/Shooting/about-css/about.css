@@ -1,0 +1,47 @@
+div,h1,h2,h3,h4,h5,h6,ul,ol,a,body,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+.baoutkuang{
+    margin-top: 70px;
+}
+.bodyyoukuang{
+    height: 364px;
+    border: 1px solid #d1d4d6;
+    background-color: #F7F8F9;
+    padding: 15px 15px 15px 15px;
+    
+}
+.bodyou{
+    padding: 0px 15px 0px 15px;
+}
+.bodyneibiankuang{
+    padding: 0px 15px 0px 15px;
+}
+i{
+    margin-bottom: 20px ;
+}
+h2{
+    margin-bottom: 9.5px;
+}
+
+h2 span{
+    font-family: SimHei;
+    font-family: bold;
+    font-weight:600;
+    margin-bottom: 9.5px;
+
+
+
+}
+.bodyzuoc-wenzi div,p{
+    margin-bottom: 9.5px;
+}
+.bodyouc div a{
+    color: black;
+    text-decoration: none;
+}
+.bodyouc div a:hover{
+    color: #FE6367;
+}

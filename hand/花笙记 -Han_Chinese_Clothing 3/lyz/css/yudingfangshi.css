@@ -1,0 +1,33 @@
+a{
+				text-decoration: none;
+			}
+			.can{
+				/*position: relative;*/
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+			#B{
+				margin: 15px;
+				padding: 0px 100px 0px 0px ;
+			}
+			.arr1{
+				width: 12px;
+				height: 12px;
+				margin-right: 10px;
+				margin-left: 10px ;
+			}
+			h4{
+				margin-left: 10px;
+				margin-top:70px;
+			}
+			.arrs,.apple,.qq,.weixin,.mails,.xinglangweibo,.tengxunweibo{
+				margin-top: 15px;
+			}
+			.i,.x,.t {
+				color: black;
+			}
+			.C{
+				padding-left: 30px;
+				margin-left: 100px;
+			}

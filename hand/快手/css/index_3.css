@@ -1,0 +1,114 @@
+/*充值界面*/
+.czkj{  width: 1200px;
+        margin: 0 auto;
+        min-height: 600px;}
+.czkj .czkj-a{  width: 960px;
+                padding: 0 50px;
+                margin: 0 auto;}
+.czkj .czkj-a .czkj-nr{ margin-top: 50px;
+                        font-size: 14px;
+                        padding-left: 60px;}
+.czkj-nr li{display: table-row;/*此元素会作为一个表格行显示*/}
+.table{display: table-cell;/*此元素会作为一个表格单元格显示*/}
+.value{ width: 764px;
+        line-height: 48px;}
+.left-style{width: 136px;
+                color: #5e5e5e;
+                height: 48px;
+                line-height: 48px;}
+.qdl{color: #207ddd;
+     margin-left: 10px;}
+.zhye{font-size: 15px;}
+.zhye i{display: inline-block;
+        width: 14px;
+        height: 14px;
+        background: url(../images/money.png) no-repeat;
+        background-size: contain;
+        margin-right: 6px;
+        vertical-align: -3%;}
+.zhye a{color: #ff9000;
+        font-weight: 700;
+        font-size: 20px;
+        margin-right: 4px;}
+.czje{height: 68px;
+      line-height: 68px;}
+.czje .bz-text{position: relative;
+                width: 174px;
+                height: 46px;
+                display: inline-block;
+                margin-right: 20px;
+                border: 1px solid #e2e2e2;}
+.pay-money {width: 105px;
+            height: 46px;
+            padding: 0 20px;
+            font-size: 15px;
+             display: inline-block;
+             border: none;}
+.bz-text .yuan{position: absolute;
+                left: 155px;
+                color: #5e5e5e;}
+.czbl{display: inline-block;
+                        height: 48px;
+                        width: 200px;
+                        vertical-align: middle;}
+.czbl p{line-height: 22px;
+        height: 22px;
+        color: #919191;
+        padding-top: 20px;}
+.zffs{margin-bottom: 30px;}
+.zffs span{display: inline-block;/*行内快元素排版*/
+            width: 157px;
+            height: 48px;
+            text-align: center;/*水平居中*/
+            border: 1px solid #979797;
+            margin-right: 24px;
+            font-size: 16px;
+            color: #5E5E5E;
+            line-height: 48px;/*行高*/
+            cursor: pointer;/*划过时光标销售*/}
+.zffs .zffs-wsyh{background: #ff9000;
+        border: none;
+        color: #FFF;}
+.wsyh{margin-right: -20px;}
+.wsyh .yhkj{    color: #303030;
+                width: 170px;
+                height: 46px;
+                margin-right: 20px;
+                border: 1px solid #e2e2e2;
+                line-height: 48px;
+                font-size: 14px;
+                vertical-align: top;
+                display: inline-block;
+                margin-bottom: 20px;
+                text-align: center;
+                cursor: pointer;}
+.zsyh{background: url(../images/yinhang/zsyh.png) no-repeat;
+      background-size: contain;}
+.jsyh{background: url(../images/yinhang/jsyh.png) no-repeat;
+      background-size: contain;}
+.gsyh{background: url(../images/yinhang/gsyh.png) no-repeat;
+      background-size: contain;}
+.jtyh{background: url(../images/yinhang/jtyh.png) no-repeat;
+      background-size: contain;}
+.gfyh{background: url(../images/yinhang/gfyh.png) no-repeat;
+      background-size: contain;}
+.zgyh{background: url(../images/yinhang/zgyh.png) no-repeat;
+        background-size: contain;}
+.zggdyh{background: url(../images/yinhang/zggdyh.png) no-repeat;
+                background-size: contain;}
+.wsyh .dq{border-color: #ff9000;
+          position: relative;}
+.tk{    color: #207ddd;
+        width: 14px;
+        height: 14px;
+        margin-right: 4px;
+        cursor: pointer;}
+.go-pay{display: inline-block;
+        background: #ff9000;
+        color: white;
+        width: 170px;
+        height: 48px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 24px;}
+/*充值界面结束*/

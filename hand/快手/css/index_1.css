@@ -1,0 +1,262 @@
+body,ul,li,h1,h2,a,i,p,img{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#beijing{
+    width: 100%;
+    height: 800px;
+    background-image:url(../images/index_1/1.jpg);
+}
+/*导航条*/
+#neikuang{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#neikuang img{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-left: 130px;
+    margin-right: 20px;
+}
+#neikuang>h1{
+    float: left;
+    margin-right: 80px; 
+}
+#neikuang ul{
+    float: left;
+    font-size: 15px;
+    position: relative;
+}
+#neikuang ul li{
+    text-align: center;
+    float: left;
+    line-height: 40px;
+    width: 110px;
+    height: 40px;
+    display: inline-block;
+}
+#neikuang .ks{
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+}
+#neikuang>ul>li>a:hover{
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+}
+#neikuang ul li ul{
+    display:none;
+    position:absolute;
+    width: 120px;
+}
+#neikuang ul li:hover ul{
+
+    display: block;
+    background-color:#fff;
+}
+#neikuang ul li ul li:hover{
+    background-color: #ccc;
+}
+#neikuang ul li ul li{
+    float: none;
+}
+a{
+    color: #5e5e5e;
+}
+#neikuang .jb{
+    position: relative;
+}
+#neikuang .jb div{
+    width: 267px;
+    position:absolute;
+    display: none;
+    padding: 10px 0 20px;
+    right: -70px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 10;
+}
+#neikuang .jb div p{
+    margin: -10px 0;
+}
+#neikuang li:hover div{
+    display: block;
+}
+/*内嵌字及二维码*/
+#neiqian{
+    width: 500px;
+    height: 400px;
+    margin-top: 16%;
+    margin-left: 585px;
+}
+#neiqian h2{
+    float: right;
+    font-size: 30px;
+}
+#neiqian h1{
+    float: right;
+    font-size: 48px;
+}
+#kuang{
+    width: 148px;
+    height: 173px;
+    background-color: white;
+    float: right;
+    padding: 8px 7px 0;
+    margin-top: 70px;
+}
+#kuang .ma{
+    background: url(../images/index_1/13.png) no-repeat;
+    width: 146px;
+    height: 146px;
+}
+#kuang p{
+    text-align: center;
+}
+/*第二块（视频）*/
+#shipin{
+    width: 1000px;
+    height: 780px;
+    margin:auto;
+}
+#shipin .shouji{
+    background-image: url(../images/index_1/2.png);
+    width: 390px;
+    height: 700px;
+    float: right;
+    margin-top: 35px;
+}
+#shipin h1{
+    padding-top: 150px;
+    margin: 20px 0 ;
+}
+#shipin p{
+    color: #5e5e5e;
+    font-size: 20px;
+    margin: 5px 0;
+}
+#shipin video{
+    width:176px; 
+    height:204px;
+    float: left;
+    margin: 100px 10px 50px ;
+}
+#shipin video:hover{
+    border: 5px solid orange;
+}
+/*图片一*/
+#ziwo{
+    width: 1000px;
+    height: 780px;
+    margin:auto;
+    position: relative;
+}
+#ziwo .shouji{
+    background-image: url(../images/index_1/5.png);
+    width: 390px;
+    height: 700px;
+    float: left;
+}
+#ziwo h1{
+    padding-top: 100px;
+    margin: 20px 0 ;
+    float: right;
+}
+#ziwo p{
+    color: #5e5e5e;
+    font-size: 20px;
+    margin: 5px 0;
+    float: right;
+}
+#ziwo .duotu{
+    width: 540px;
+    height: 236px;
+    background-image: url(../images/index_1/多图.jpg);
+    bottom: 28%;
+    right: 0;
+    position: absolute;
+}
+/*第三块，心情，地图*/
+#xinqing{
+    width: 1000px;
+    height: 780px;
+    margin:auto;
+}
+#xinqing .shouji{
+    background-image: url(../images/index_1/2.png);
+    width: 390px;
+    height: 700px;
+    float: right;
+}
+#xinqing h1{
+    padding-top: 150px;
+    margin: 20px 0 ;
+}
+#xinqing p{
+    color: #5e5e5e;
+    font-size: 20px;
+    margin: 5px 0;
+}
+#xinqing .lianjie{
+    width: 572px;
+    height: 366px;
+    background-image: url(../images/index_1/3.png);
+}
+/*底部导航栏*/
+#dibu{
+    width: 100%;
+    height: 100px;
+    padding: 50px 0 ;
+}
+#dibu .jvzhong{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+#dibu .daohang{
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+#dibu .daohang>a{
+    color: #5e5e5e;
+    width:  165px;
+    display: inline-block;
+    text-align: center
+}
+#dibu .tubiao{
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+}
+#dibu .tubiao a{
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/index_1/15.png);
+    display: inline-block;
+}
+#wz{
+    text-align: center;
+    margin: 30px 0 ;
+    color: #919191;
+}
+#guohui{
+    display: inline-block;
+    background-image: url(../images/index_1/12.png);
+    width: 18px;
+    height: 18px;
+    margin: 0 2px 0 10px;
+    background-size: 18px 18px;
+}
+#xin{
+    width: 67px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../images/index_1/xin.png);
+    background-size: 67px 25px;
+}

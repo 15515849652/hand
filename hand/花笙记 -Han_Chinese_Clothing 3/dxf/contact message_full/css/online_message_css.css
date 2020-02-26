@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#content-message-box{
+    width: 100%;
+    height: 625px;
+}
+.message-center-box{
+    width: 70%;
+    height: 626px;
+    transform: translateY(50px);
+}
+.concat-form-wrapper .col-sm-12 h2{
+    transform: translate(14px,-23px);
+}
+.msg-name,.msg-email,.msg-phone,.msg-text{
+    font-size: 12px;
+}
+.msg-email input,.msg-name input{
+    height: 37px;
+    width: 278px;
+    border: 1px solid #d5d5d5;
+}
+.msg-email{
+    transform: translateX(103px);
+}
+.msg-phone input{
+    width: 586px;
+    height: 37px;
+    border: 1px solid #d5d5d5;
+}
+.msg-text textarea{
+    width: 586px;
+    height: 208px;
+    border: 1px solid #d5d5d5;
+}
+.msg-send input{
+    width: 108px;
+    height: 37px;
+    background-color: white;
+    border: 2px solid black;
+}
+.msg-send input:hover{
+    animation: change 0.5s;
+    border: 3px solid black;
+}
+.msg-email input:focus,.msg-name input:focus,.msg-phone input:focus,.msg-text textarea:focus{ 
+    animation: change 0.5s;
+    border: 2px solid black;
+}
+@keyframes change{
+    0% {border: 1px solid black;};
+    25% {border: 2px solid black;}
+    50% {border: 3px solid black;}
+    75% {border: 2px solid black;}
+    100% {border: 1px solid black;}
+}
+
+.infobox-address{
+    width: 323px;
+    height: 364px;
+    border: 1px solid #d5d5d5;
+    background-color: #F7F8F9;
+}
+.infobox-address .col-sm-12 h4{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    border-bottom:1px solid #d5d5d5;
+}
+.address-msg{
+    border-top: 25px solid #F7F8F9;
+}
+.address-msg div{
+    height: 35px;
+}
+.address-msg div i{
+    font-size: 16px;
+}
+.address-msg div a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.address-msg div a:hover{
+    color: #FE6367;
+}
+@media (max-width: 768px) {  
+    .info-msg{
+    width: 423px;
+    height: 429px;
+    }
+    .msg-name input,.msg-email input,.msg-phone input{
+        width: 100%;
+    }
+    .msg-email{
+        transform: translateY(10px);
+    }
+    .msg-email input{
+        transform: translateX(2px);
+    }
+    .msg-phone{
+        transform: translateY(10px);
+    }
+    .msg-phone input{
+        width: 278px;
+        transform: translate(-100px,30px);
+    }
+    .msg-text textarea{
+        width: 100%;
+        height: 200px;
+        transform: translateY(0px);
+    }
+    .msg-text{
+        transform: translateY(50px);
+    }
+    .msg-text span{
+        transform: translateY(40px);
+    }
+    .msg-send{
+        transform:translateY(55px)
+    }
+    .message-infobox{
+        width: 100%;
+        transform: translate(20px,40px);
+    }
+    .infobox-address{
+        width: 100%;
+
+    }
+    .message-center-box{
+        width:95%;
+        height: 900px;
+    }
+}  
+@media (min-width: 768px) and (max-width: 990px) {  
+    .infobox-info{
+        width: 456px;
+        height: 487px;
+    }
+    .msg-name span,.msg-email span{
+        display: inline-block;
+        width: 150px;
+    }
+    .msg-email span{
+        transform: translateX(-30px);
+    }
+    .msg-name input,.msg-email input{
+        width: 198px;
+    }
+    .msg-email input{
+        transform: translateX(-32px);
+    }
+    .msg-phone input{
+        width: 426px;
+    }
+    .msg-text textarea{
+        width: 426px;
+        height: 210px;
+    }
+    .infobox-address{
+        width: 243px;
+        height: 422px;
+    }
+    .address-msg div{
+        margin-bottom: 5px;
+    }
+}  
+@media (min-width: 991px) and (max-width: 1199px) {
+    .msg-email{
+        transform: translateX(102px);
+    }
+}
+@media (min-width: 1200px) {
+    .msg-email{
+        transform: translateX(120px);
+    }
+}
